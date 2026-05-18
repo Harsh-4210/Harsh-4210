@@ -21,14 +21,14 @@
 
 > **Business instructions contradict. ConflictBench teaches LLMs to resolve them.**
 
-ConflictBench is an RL environment that trains language models to resolve contradictory business directives by learning an implicit 6-tier authority hierarchy — **Legal > C-Suite > VP > Director > Team Lead > IC** — entirely from reward signal. The hierarchy is never stated in the prompt; the model discovers it through episodes of 8–28 directives with 2–6 embedded conflict pairs.
+ConflictBench is an RL environment that trains language models to resolve contradictory business directives by discovering an implicit 6-tier authority hierarchy — **Legal > C-Suite > VP > Director > Team Lead > IC** — entirely from reward signal. The hierarchy is never stated in the prompt; the model discovers it through episodes of 8–28 directives with 2–6 embedded conflict pairs.
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  Scenario Generator  →  8–28 directives, 2–6 conflict pairs     │
-│  Reward Function     →  5-rubric deterministic (no LLM judge)    │
+│  Reward Function     →  5-rubric deterministic (no LLM judge)   │
 │  Training            →  GRPO + LoRA (r=32) on Qwen2.5-3B        │
-│  Hardware             →  Single A100 48GB, 2 epochs, 400 scenes  │
+│  Hardware            →  Single A100 48GB · 2 epochs · 400 scenes │
 │  Output              →  Conflict-free resolution + JSON schema   │
 └──────────────────────────────────────────────────────────────────┘
 ```
@@ -38,11 +38,11 @@ ConflictBench is an RL environment that trains language models to resolve contra
 | Composite reward lift | **0.14 → 0.50 (+257%)** over zero-shot baseline |
 | Reward rubrics | Correctness · Contradiction-freedom · F1 · Efficiency · Schema |
 | Training | GRPO + LoRA (r=32) on Qwen2.5-3B, A100 48GB |
-| Recognition | **Finalist — Meta × PyTorch × HuggingFace OpenEnv Hackathon** |
+| Recognition | **Finalist — Meta × PyTorch × HuggingFace OpenEnv Hackathon, Bangalore** |
 
 [![GitHub](https://img.shields.io/badge/GitHub-Conflict__Bench-181717?style=flat-square&logo=github)](https://github.com/Harsh-4210/Conflict_Bench)
 [![HuggingFace](https://img.shields.io/badge/🤗%20LoRA%20Adapter-live-ff9d00?style=flat-square)](https://huggingface.co/Harsh-4210)
-[![Demo](https://img.shields.io/badge/🤗%20Demo-Base%20vs%20Fine--Tuned-ff9d00?style=flat-square)](https://huggingface.co/Harsh-4210)
+[![Demo](https://img.shields.io/badge/🤗%20Base%20vs%20Fine--Tuned%20Demo-live-ff9d00?style=flat-square)](https://huggingface.co/Harsh-4210)
 
 ---
 
@@ -53,8 +53,10 @@ ConflictBench is an RL environment that trains language models to resolve contra
 <td width="50%" valign="top">
 
 ### [ARMSRACE — Adversarial Oversight Arena](https://github.com/Harsh-4210/LLM_HALLUCINATION_RL)
-Two-agent zero-sum adversarial loop for hallucination detection — Red Agent generates plausible silent-failure hallucinations, Blue Agent acts as factual gatekeeper.
-- Expert Correction Training (ECT): converts failed RL steps into stable supervised signal
+
+Two-agent zero-sum adversarial loop for hallucination detection — Red Agent generates plausible silent-failure hallucinations, Blue Agent acts as a factual gatekeeper.
+
+- **Expert Correction Training (ECT):** converts failed RL steps into supervised signal, preventing policy collapse
 - Hallucination detection: **25% → 100%** with **4% false-alarm rate**
 - **96% OOD generalisation** across unseen domains
 - Asymmetric rewards (TP+0.6, FP−2.0, FN−0.6) + zero-sum ELO tracking
@@ -65,11 +67,13 @@ Two-agent zero-sum adversarial loop for hallucination detection — Red Agent ge
 <td width="50%" valign="top">
 
 ### [TraceLink — Manufacturing Traceability](https://github.com/ruxir-ig/mccia-tracelink)
-Production-deployed system for full forward/backward traceability across 6 entity types — from raw material lots to customer dispatch orders.
+
+Production-deployed system for full forward/backward traceability across 6 entity types — raw material lots to customer dispatch orders.
+
 - 6-role RBAC with Firebase ID-token verification
 - CSV ingestion with full rollback + request-level audit trail
-- AI query endpoint for non-technical users
-- Containerised (Bun + FastAPI) → deployed on Render
+- Natural-language AI query endpoint for non-technical users
+- Containerised (Bun + FastAPI) → deployed on Render with auto-deploy
 
 `FastAPI` `React` `Firebase Auth` `SQLite` `Docker`
 
@@ -79,11 +83,13 @@ Production-deployed system for full forward/backward traceability across 6 entit
 <td width="50%" valign="top">
 
 ### [Arivon — Adaptive Learning Platform](https://github.com/Harsh-4210/Arivon)
+
 Detects metacognitive miscalibration — when a student's confidence diverges from actual performance — and dynamically adjusts learning paths.
+
 - Bloom's taxonomy difficulty engine
-- Voice-based exam via Groq Whisper
+- Voice-based exam interface via Groq Whisper
 - RAG-powered study mentor (Haystack) + React Flow knowledge graph
-- **3rd Place — Pragyantra, PES Modern College of Engineering**
+- **🥉 3rd Place — Pragyantra, PES Modern College of Engineering**
 
 `Next.js 15` `FastAPI` `Groq Whisper` `Haystack RAG` `MongoDB` `Redis`
 
@@ -91,7 +97,9 @@ Detects metacognitive miscalibration — when a student's confidence diverges fr
 <td width="50%" valign="top">
 
 ### [SO₂ Emission Prediction System](https://github.com/Harsh-4210/SO2-Emission-Prediction)
+
 End-to-end ML pipeline predicting SO₂ emissions from Indian coal power plants, deployed as a containerised microservice.
+
 - **85% accuracy** on held-out test data via cross-validation
 - Optuna-based hyperparameter tuning on XGBoost
 - **20% efficiency boost** through feature engineering + pipeline automation
@@ -146,7 +154,7 @@ INFRA_DB     = ["Docker", "GitHub Actions", "Google Cloud",
                 "PostgreSQL", "MongoDB", "Redis"]
 
 CERTS        = ["Deep Learning Specialization (Andrew Ng)",
-                "Generative AI with LLMs (AWS/Coursera)",
+                "Generative AI with LLMs (AWS / Coursera)",
                 "LLM Fundamentals (Hugging Face)"]
 ```
 
@@ -199,5 +207,3 @@ CERTS        = ["Deep Learning Specialization (Andrew Ng)",
 ![Profile views](https://komarev.com/ghpvc/?username=Harsh-4210&color=8b5cf6&style=flat-square&label=Profile+Views)
 
 </div>
-#   H a r s h - 4 2 1 0  
- 
