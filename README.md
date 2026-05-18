@@ -25,9 +25,9 @@ ConflictBench is an RL environment that trains language models to resolve contra
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-│  Scenario Generator  →  8–28 directives, 2–6 conflict pairs     │
-│  Reward Function     →  5-rubric deterministic (no LLM judge)   │
-│  Training            →  GRPO + LoRA (r=32) on Qwen2.5-3B        │
+│  Scenario Generator  →  8–28 directives, 2–6 conflict pairs      │
+│  Reward Function     →  5-rubric deterministic (no LLM judge)    │
+│  Training            →  GRPO + LoRA (r=32) on Qwen2.5-3B         │
 │  Hardware            →  Single A100 48GB · 2 epochs · 400 scenes │
 │  Output              →  Conflict-free resolution + JSON schema   │
 └──────────────────────────────────────────────────────────────────┘
