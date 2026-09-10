@@ -195,15 +195,15 @@ An end-to-end ML pipeline for predicting SO2 emissions from Indian coal power pl
 <div align="center">
 
 <a href="https://github.com/Harsh-4210">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Harsh-4210&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&ring_color=2dd4bf" alt="Harsh Jain's GitHub statistics" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Harsh-4210&theme=github_dark" alt="Harsh Jain's GitHub statistics" />
 </a>
 <a href="https://github.com/Harsh-4210?tab=repositories">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harsh-4210&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Harsh Jain's most used languages" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Harsh-4210&theme=github_dark" alt="Harsh Jain's repositories by language" />
 </a>
 
 <br />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Harsh-4210&bg_color=0d1117&color=c9d1d9&line=2dd4bf&point=58a6ff&area=true&area_color=173b45&hide_border=true" width="96%" alt="Harsh Jain's contribution activity graph" />
+<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Harsh-4210&theme=github_dark" alt="Harsh Jain's contribution activity graph" />
 
 <br /><br />
 
