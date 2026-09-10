@@ -14,7 +14,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Harsh%20Jain-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/harsh-jain0621/)
 [![Email](https://img.shields.io/badge/Email-Contact%20me-EA4335?style=for-the-badge&logo=gmail)](mailto:harshjain0621@gmail.com)
 
-**B.E. Artificial Intelligence & Data Science @ SPPU · GPA 8.75/10 · Pune, India**
+<sub>🎓 B.E. Artificial Intelligence & Data Science @ SPPU &nbsp;•&nbsp; GPA 8.75/10 &nbsp;•&nbsp; Pune, India</sub>
 
 </div>
 
@@ -22,10 +22,10 @@
 
 <div align="center">
 
-**[Flagship Project](#flagship-project)** &nbsp; · &nbsp;
-**[Selected Work](#selected-work)** &nbsp; · &nbsp;
-**[Technical Stack](#technical-stack)** &nbsp; · &nbsp;
-**[GitHub Activity](#github-activity)**
+<a href="#flagship-project">Flagship project</a> &nbsp;·&nbsp;
+<a href="#selected-work">Selected work</a> &nbsp;·&nbsp;
+<a href="#technical-stack">Technical stack</a> &nbsp;·&nbsp;
+<a href="#github-activity">GitHub activity</a>
 
 </div>
 
@@ -33,24 +33,31 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Now building
+### ◉ Currently focused
 
-Reliable AI systems with explicit evaluation, adversarial testing, structured outputs, and deployment paths that survive real users.
+Reliable AI with explicit evaluation, adversarial testing, and structured outputs.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Best fit
+### ↗ Best fit
 
 ML engineering, applied AI, reinforcement learning, LLM systems, and research-oriented collaborations.
+
+</td>
+<td width="33%" valign="top">
+
+### ✦ North star
+
+Systems that are useful beyond the demo: observable, testable, and ready to ship.
 
 </td>
 </tr>
 </table>
 
-## About Me
+## What I Work On
 
 I turn research ideas into measurable, deployable systems. My work sits at the intersection of reinforcement learning, LLM systems, applied ML, and production engineering.
 
@@ -59,13 +66,13 @@ I turn research ideas into measurable, deployable systems. My work sits at the i
 - **Applied ML:** computer vision, emissions prediction, feature engineering, and optimization
 - **Production engineering:** FastAPI services, React applications, Docker, databases, and CI/CD
 
-I care about systems that are observable, testable, and honest about their limitations, not only impressive in a demo.
+> **My approach:** design the evaluation first, make decisions traceable, and treat deployment as part of the research—not the final polish.
 
 ---
 
 ## Flagship Project
 
-### ConflictBench
+### ConflictBench &nbsp;·&nbsp; *Reward-driven authority resolution*
 
 **Can an LLM learn authority resolution from reward alone?**
 
@@ -75,9 +82,9 @@ ConflictBench is a reinforcement-learning environment that teaches language mode
 
 Scenarios contain 8–28 directives and 2–6 embedded conflict pairs. The agent must detect conflicts, produce an executable plan, override lower-priority instructions, and remain consistent in structured JSON.
 
-| Signal | Result |
+| Signal | Evidence |
 |---|---|
-| Composite reward | **0.14 → 0.50**, a 257% improvement over zero-shot |
+| **Composite reward** | **0.14 → 0.50** — a 257% improvement over zero-shot |
 | Reward design | Deterministic correctness, contradiction freedom, conflict-pair F1, efficiency, and JSON compliance |
 | Training | GRPO + LoRA on Qwen2.5-3B, 400 scenarios, 2 epochs, single A100 48 GB |
 | Recognition | Top 100 finalist, Meta × PyTorch × Hugging Face OpenEnv Hackathon |
@@ -92,7 +99,9 @@ Scenarios contain 8–28 directives and 2–6 embedded conflict pairs. The agent
 
 ## Selected Work
 
-### [Inquisitor / ARMS RACE V3](https://github.com/Harsh-4210/LLM_HALLUCINATION_RL)
+<sub>A selection of systems spanning adversarial LLM evaluation, production traceability, adaptive learning, and applied forecasting.</sub>
+
+### 01 — [Inquisitor / ARMS RACE V3](https://github.com/Harsh-4210/LLM_HALLUCINATION_RL)
 
 A two-agent red/blue system for detecting silent-failure hallucinations. The Red Agent generates semantically plausible wrong answers while the Blue Agent returns structured `Pass`, `Flag`, or `Probe` decisions.
 
@@ -103,9 +112,9 @@ A two-agent red/blue system for detecting silent-failure hallucinations. The Red
 
 <img src="./assets/armsrace-loop.svg" alt="ARMS RACE loop connecting the Red Agent, Blue Agent, asymmetric reward, and correction training" width="100%" />
 
-`PPO` `LoRA` `PEFT` `REINFORCE` `SFT`
+`PPO` &nbsp; `LoRA` &nbsp; `PEFT` &nbsp; `REINFORCE` &nbsp; `SFT`
 
-### [TraceLink](https://github.com/ruxir-ig/mccia-tracelink)
+### 02 — [TraceLink](https://github.com/ruxir-ig/mccia-tracelink)
 
 A production-deployed manufacturing traceability platform for tracing dispatch orders backward through production batches, QC inspections, and raw-material lots, then forward from a flagged lot to affected customer orders.
 
@@ -116,9 +125,9 @@ A production-deployed manufacturing traceability platform for tracing dispatch o
 
 <img src="./assets/tracelink-graph.svg" alt="TraceLink graph connecting raw lots, production batches, quality inspections, dispatch orders, and customer impact" width="100%" />
 
-`FastAPI` `React` `Firebase Auth` `SQLite` `Docker`
+`FastAPI` &nbsp; `React` &nbsp; `Firebase Auth` &nbsp; `SQLite` &nbsp; `Docker`
 
-### [Arivon](https://github.com/nishtha911/Pragyantra-ED14-ET-3)
+### 03 — [Arivon](https://github.com/nishtha911/Pragyantra-ED14-ET-3)
 
 An adaptive learning platform that detects when confidence diverges from actual performance and adjusts the learning path accordingly.
 
@@ -127,9 +136,9 @@ An adaptive learning platform that detects when confidence diverges from actual 
 - Haystack RAG study mentor backed by PostgreSQL, MongoDB, and Redis
 - **3rd Place — Pragyantra, PES Modern College of Engineering**
 
-`Next.js` `FastAPI` `Haystack` `MongoDB` `Redis`
+`Next.js` &nbsp; `FastAPI` &nbsp; `Haystack` &nbsp; `MongoDB` &nbsp; `Redis`
 
-### [SO2 Emission Prediction](https://github.com/Harsh-4210/SO2-Emission-Prediction)
+### 04 — [SO2 Emission Prediction](https://github.com/Harsh-4210/SO2-Emission-Prediction)
 
 An end-to-end ML pipeline for predicting SO2 emissions from Indian coal power plants.
 
@@ -137,7 +146,7 @@ An end-to-end ML pipeline for predicting SO2 emissions from Indian coal power pl
 - Containerised FastAPI deployment with structured error handling
 - Reproducible data-to-inference workflow
 
-`XGBoost` `FastAPI` `Optuna` `Docker`
+`XGBoost` &nbsp; `FastAPI` &nbsp; `Optuna` &nbsp; `Docker`
 
 ---
 
@@ -147,21 +156,21 @@ An end-to-end ML pipeline for predicting SO2 emissions from Indian coal power pl
 <tr>
 <td valign="top" width="33%">
 
-### ML & AI
+### 🧠 ML & AI
 
 `Python` `PyTorch` `Transformers` `GRPO` `PPO` `LoRA/QLoRA` `TRL` `Unsloth` `PEFT` `Ray RLlib` `RAG` `OpenCV` `YOLOv8`
 
 </td>
 <td valign="top" width="33%">
 
-### Backend & Data
+### ⚙️ Backend & Data
 
 `FastAPI` `React` `Next.js` `PostgreSQL` `MongoDB` `Redis` `SQL` `Firebase`
 
 </td>
 <td valign="top" width="33%">
 
-### Engineering
+### 🚀 Engineering
 
 `Docker` `Docker Compose` `GitHub Actions` `GCP` `ONNX Runtime` `CI/CD` `OpenAPI`
 
@@ -173,9 +182,11 @@ An end-to-end ML pipeline for predicting SO2 emissions from Indian coal power pl
 
 ## Recognition
 
-- **Top 100 Finalist** — Meta × PyTorch × Hugging Face OpenEnv Hackathon, ConflictBench
-- **3rd Place** — Pragyantra, PES Modern College of Engineering, Arivon
-- **Machine Learning Intern** — Prodigy InfoTech, Nov 2025–Jan 2026
+| ✦ | Milestone | Context |
+|---|---|---|
+| **Top 100 Finalist** | Meta × PyTorch × Hugging Face OpenEnv Hackathon | ConflictBench |
+| **3rd Place** | Pragyantra, PES Modern College of Engineering | Arivon |
+| **ML Intern** | Prodigy InfoTech · Nov 2025–Jan 2026 | Applied machine learning |
 
 ---
 
@@ -183,9 +194,18 @@ An end-to-end ML pipeline for predicting SO2 emissions from Indian coal power pl
 
 <div align="center">
 
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Harsh-4210&theme=github_dark" alt="Harsh Jain's GitHub profile summary" />
+<a href="https://github.com/Harsh-4210">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Harsh-4210&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&ring_color=2dd4bf" alt="Harsh Jain's GitHub statistics" />
+</a>
+<a href="https://github.com/Harsh-4210?tab=repositories">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harsh-4210&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Harsh Jain's most used languages" />
+</a>
 
 <br />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Harsh-4210&bg_color=0d1117&color=c9d1d9&line=2dd4bf&point=58a6ff&area=true&area_color=173b45&hide_border=true" width="96%" alt="Harsh Jain's contribution activity graph" />
+
+<br /><br />
 
 [![GitHub Profile](https://img.shields.io/badge/View%20all%20repositories-Harsh--4210-0e75b6?style=for-the-badge&logo=github)](https://github.com/Harsh-4210?tab=repositories)
 
