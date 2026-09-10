@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">ConflictBench training loop</title>
+  <desc id="desc">A flow diagram from contradictory directives through verification and reward back into GRPO training.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="1200" height="250" rx="12" fill="#f8fafc" stroke="#dbe4ee"/>
+  <text x="42" y="42" fill="#334155" font-family="Segoe UI,sans-serif" font-size="15" letter-spacing="2">CONFLICTBENCH · DETERMINISTIC LEARNING SIGNAL</text>
+  <g font-family="Segoe UI,sans-serif" text-anchor="middle">
+    <g fill="#ffffff" stroke="#2563eb" stroke-width="2"><rect x="35" y="88" width="170" height="76" rx="8"/><rect x="265" y="88" width="170" height="76" rx="8"/><rect x="495" y="88" width="170" height="76" rx="8"/><rect x="725" y="88" width="170" height="76" rx="8"/><rect x="955" y="88" width="205" height="76" rx="8"/></g>
+    <g fill="#1e293b" font-size="16"><text x="120" y="120">Contradictory</text><text x="120" y="143">directives</text><text x="350" y="120">JSON</text><text x="350" y="143">execution plan</text><text x="580" y="120">Deterministic</text><text x="580" y="143">verifier</text><text x="810" y="120">Composite</text><text x="810" y="143">reward</text><text x="1057" y="120">GRPO + LoRA</text><text x="1057" y="143">Qwen2.5-3B</text></g>
+    <g stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"><path d="M205 126h55"/><path d="M435 126h55"/><path d="M665 126h55"/><path d="M895 126h55"/><path d="M1057 164v46H120v-46" fill="none"/></g>
+  </g>
+  <circle cx="35" cy="126" r="5" fill="#2563eb"><animate attributeName="cx" values="35;1160;35" dur="5s" repeatCount="indefinite"/></circle>
+</svg>

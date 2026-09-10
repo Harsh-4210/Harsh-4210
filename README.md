@@ -1,209 +1,228 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1a,50:1a1040,100:4f17a8&height=120&section=header&text=Harsh%20Jain&fontSize=42&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
+# Harsh Jain
 
-### Applied ML & AI Engineer · Adversarial RL · LLM Fine-Tuning · Production ML Systems
+<img src="./assets/harsh-jain-banner.svg" alt="Harsh Jain - Applied ML and AI Engineer" width="100%" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-harsh--jain0621-0a66c2?style=flat-square&logo=linkedin)](https://linkedin.com/in/harsh-jain0621)
-[![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-Harsh--4210-ff9d00?style=flat-square)](https://huggingface.co/Harsh-4210)
-[![Email](https://img.shields.io/badge/Email-harshjain0621@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:harshjain0621@gmail.com)
-![Profile views](https://komarev.com/ghpvc/?username=Harsh-4210&color=8b5cf6&style=flat-square&label=Profile+Views)
+### Applied ML & AI Engineer building systems that learn, reason, and ship
 
-*B.E. Artificial Intelligence & Data Science @ SPPU · GPA 8.75/10*
+`Reinforcement Learning` · `LLM Systems` · `Production AI`
 
-*I train RL agents that learn what humans never state, and ship ML systems that survive production.*
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=20&pause=1200&color=0E75B6&center=true&vCenter=true&width=720&lines=Reinforcement+Learning+%C2%B7+LLM+Systems+%C2%B7+Production+AI;From+reward+functions+to+reliable+APIs;Building+systems+that+can+explain+how+they+decide" alt="Reinforcement Learning, LLM Systems, and Production AI" />
+
+[![GitHub](https://img.shields.io/badge/GitHub-Harsh--4210-181717?style=for-the-badge&logo=github)](https://github.com/Harsh-4210)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harsh%20Jain-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/harsh-jain0621/)
+[![Email](https://img.shields.io/badge/Email-Contact%20me-EA4335?style=for-the-badge&logo=gmail)](mailto:harshjain0621@gmail.com)
+
+**B.E. Artificial Intelligence & Data Science @ SPPU · GPA 8.75/10 · Pune, India**
 
 </div>
 
 ---
 
-## 🧠 Flagship Project — ConflictBench
+<div align="center">
 
-> **Business instructions contradict. ConflictBench teaches LLMs to resolve them.**
+**[Flagship Project](#flagship-project)** &nbsp; · &nbsp;
+**[Selected Work](#selected-work)** &nbsp; · &nbsp;
+**[Technical Stack](#technical-stack)** &nbsp; · &nbsp;
+**[GitHub Activity](#github-activity)**
 
-ConflictBench is an RL environment that trains language models to resolve contradictory business directives by discovering an implicit 6-tier authority hierarchy — **Legal > C-Suite > VP > Director > Team Lead > IC** — entirely from reward signal. The hierarchy is never stated in the prompt; the model discovers it through episodes of 8–28 directives with 2–6 embedded conflict pairs.
+</div>
 
-```
-┌──────────────────────────────────────────────────────────────────┐
-│  Scenario Generator  →  8–28 directives, 2–6 conflict pairs      │
-│  Reward Function     →  5-rubric deterministic (no LLM judge)    │
-│  Training            →  GRPO + LoRA (r=32) on Qwen2.5-3B         │
-│  Hardware            →  Single A100 48GB · 2 epochs · 400 scenes │
-│  Output              →  Conflict-free resolution + JSON schema   │
-└──────────────────────────────────────────────────────────────────┘
-```
-
-| Metric | Result |
-|--------|--------|
-| Composite reward lift | **0.14 → 0.50 (+257%)** over zero-shot baseline |
-| Reward rubrics | Correctness · Contradiction-freedom · F1 · Efficiency · Schema |
-| Training | GRPO + LoRA (r=32) on Qwen2.5-3B, A100 48GB |
-| Recognition | **Finalist — Meta × PyTorch × HuggingFace OpenEnv Hackathon, Bangalore** |
-
-[![GitHub](https://img.shields.io/badge/GitHub-Conflict__Bench-181717?style=flat-square&logo=github)](https://github.com/Harsh-4210/Conflict_Bench)
-[![HuggingFace](https://img.shields.io/badge/🤗%20LoRA%20Adapter-live-ff9d00?style=flat-square)](https://huggingface.co/Harsh-4210)
-[![Demo](https://img.shields.io/badge/🤗%20Base%20vs%20Fine--Tuned%20Demo-live-ff9d00?style=flat-square)](https://huggingface.co/Harsh-4210)
-
----
-
-## 🔬 Projects
+<br />
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [ARMSRACE — Adversarial Oversight Arena](https://github.com/Harsh-4210/LLM_HALLUCINATION_RL)
+### Now building
 
-Two-agent zero-sum adversarial loop for hallucination detection — Red Agent generates plausible silent-failure hallucinations, Blue Agent acts as a factual gatekeeper.
+Reliable AI systems with explicit evaluation, adversarial testing, structured outputs, and deployment paths that survive real users.
 
-- **Expert Correction Training (ECT):** converts failed RL steps into supervised signal, preventing policy collapse
-- Hallucination detection: **25% → 100%** with **4% false-alarm rate**
-- **96% OOD generalisation** across unseen domains
-- Asymmetric rewards (TP+0.6, FP−2.0, FN−0.6) + zero-sum ELO tracking
+</td>
+<td width="50%" valign="top">
+
+### Best fit
+
+ML engineering, applied AI, reinforcement learning, LLM systems, and research-oriented collaborations.
+
+</td>
+</tr>
+</table>
+
+## About Me
+
+I turn research ideas into measurable, deployable systems. My work sits at the intersection of reinforcement learning, LLM systems, applied ML, and production engineering.
+
+- **Reinforcement learning:** GRPO, PPO, reward design, environments, and agent evaluation
+- **LLM systems:** fine-tuning, LoRA/QLoRA, RAG, structured generation, and agentic workflows
+- **Applied ML:** computer vision, emissions prediction, feature engineering, and optimization
+- **Production engineering:** FastAPI services, React applications, Docker, databases, and CI/CD
+
+I care about systems that are observable, testable, and honest about their limitations, not only impressive in a demo.
+
+<details>
+<summary><b>My engineering lens</b></summary>
+<br />
+
+| Question | Answer |
+|---|---|
+| How should an AI system improve? | Through a measurable reward, evaluation set, or feedback signal. |
+| How should it fail? | Explicitly, with structured outputs, logs, and recoverable state. |
+| How should it ship? | Behind a clear API, reproducible environment, and testable workflow. |
+| What do I distrust? | Impressive demos without baselines, error analysis, or deployment evidence. |
+
+</details>
+
+---
+
+## Flagship Project
+
+### ConflictBench
+
+**Can an LLM learn authority resolution from reward alone?**
+
+ConflictBench is a reinforcement-learning environment that teaches language models to resolve contradictory business instructions. The model infers an implicit six-tier authority hierarchy from reward signals rather than being given the rule directly:
+
+`Legal > C-Suite > VP > Director > Team Lead > Individual Contributor`
+
+Scenarios contain 8–28 directives and 2–6 embedded conflict pairs. The agent must detect conflicts, produce an executable plan, override lower-priority instructions, and remain consistent in structured JSON.
+
+| Signal | Result |
+|---|---|
+| Composite reward | **0.14 → 0.50**, a 257% improvement over zero-shot |
+| Reward design | Deterministic correctness, contradiction freedom, conflict-pair F1, efficiency, and JSON compliance |
+| Training | GRPO + LoRA on Qwen2.5-3B, 400 scenarios, 2 epochs, single A100 48 GB |
+| Recognition | Top 100 finalist, Meta × PyTorch × Hugging Face OpenEnv Hackathon |
+
+[![Source Code](https://img.shields.io/badge/Source%20Code-ConflictBench-181717?style=flat-square&logo=github)](https://github.com/Harsh-4210/Conflict_Bench)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/spaces/Harsh-9209/Conflict_Bench)
+[![LoRA Adapter](https://img.shields.io/badge/LoRA%20Adapter-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/Harsh-9209/conflictbench-qwen2.5-3b-grpo-lora)
+
+<details>
+<summary><b>Architecture</b></summary>
+<br />
+
+<img src="./assets/conflictbench-flow.svg" alt="ConflictBench training loop: contradictory directives become a JSON plan, pass through a deterministic verifier and composite reward, then train GRPO with LoRA" width="100%" />
+
+</details>
+
+---
+
+## Selected Work
+
+### [Inquisitor / ARMS RACE V3](https://github.com/Harsh-4210/LLM_HALLUCINATION_RL)
+
+A two-agent red/blue system for detecting silent-failure hallucinations. The Red Agent generates semantically plausible wrong answers while the Blue Agent returns structured `Pass`, `Flag`, or `Probe` decisions.
+
+- Expert Correction Training turns failed RL steps into supervised learning signal
+- Detection improved from **25% to 100%**, with a **4% false-alarm rate**
+- **96% out-of-distribution generalisation** across unseen domains
+- Asymmetric rewards and zero-sum ELO tracking discourage indiscriminate flagging
+
+<img src="./assets/armsrace-loop.svg" alt="ARMS RACE loop: Red Agent creates a plausible error, Blue Agent passes, flags, or probes it, then asymmetric reward and correction training update the system" width="100%" />
 
 `PPO` `LoRA` `PEFT` `REINFORCE` `SFT`
 
-</td>
-<td width="50%" valign="top">
+### [TraceLink](https://github.com/ruxir-ig/mccia-tracelink)
 
-### [TraceLink — Manufacturing Traceability](https://github.com/ruxir-ig/mccia-tracelink)
+A production-deployed manufacturing traceability platform for tracing dispatch orders backward through production batches, QC inspections, and raw-material lots, then forward from a flagged lot to affected customer orders.
 
-Production-deployed system for full forward/backward traceability across 6 entity types — raw material lots to customer dispatch orders.
+- Six-entity traceability graph with forward, reverse, and blast-radius investigation
+- Six-role RBAC with Firebase ID-token verification
+- CSV ingestion with rollback support and request-level audit trails
+- Natural-language AI query endpoint with Dockerised FastAPI and React deployment
 
-- 6-role RBAC with Firebase ID-token verification
-- CSV ingestion with full rollback + request-level audit trail
-- Natural-language AI query endpoint for non-technical users
-- Containerised (Bun + FastAPI) → deployed on Render with auto-deploy
+<img src="./assets/tracelink-graph.svg" alt="TraceLink graph connecting raw lots, production batches, quality inspections, dispatch orders, and customer impact" width="100%" />
 
 `FastAPI` `React` `Firebase Auth` `SQLite` `Docker`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+### [Arivon](https://github.com/nishtha911/Pragyantra-ED14-ET-3)
 
-### [Arivon — Adaptive Learning Platform](https://github.com/Harsh-4210/Arivon)
+An adaptive learning platform that detects when confidence diverges from actual performance and adjusts the learning path accordingly.
 
-Detects metacognitive miscalibration — when a student's confidence diverges from actual performance — and dynamically adjusts learning paths.
+- Bloom's taxonomy-based difficulty adjustment
+- React Flow knowledge graph and voice exam interface with Groq Whisper
+- Haystack RAG study mentor backed by PostgreSQL, MongoDB, and Redis
+- **3rd Place — Pragyantra, PES Modern College of Engineering**
 
-- Bloom's taxonomy difficulty engine
-- Voice-based exam interface via Groq Whisper
-- RAG-powered study mentor (Haystack) + React Flow knowledge graph
-- **🥉 3rd Place — Pragyantra, PES Modern College of Engineering**
+`Next.js` `FastAPI` `Haystack` `MongoDB` `Redis`
 
-`Next.js 15` `FastAPI` `Groq Whisper` `Haystack RAG` `MongoDB` `Redis`
+### [SO2 Emission Prediction](https://github.com/Harsh-4210/SO2-Emission-Prediction)
 
-</td>
-<td width="50%" valign="top">
+An end-to-end ML pipeline for predicting SO2 emissions from Indian coal power plants.
 
-### [SO₂ Emission Prediction System](https://github.com/Harsh-4210/SO2-Emission-Prediction)
+- XGBoost with feature selection, cross-validation, and Optuna tuning
+- Containerised FastAPI deployment with structured error handling
+- Reproducible data-to-inference workflow
 
-End-to-end ML pipeline predicting SO₂ emissions from Indian coal power plants, deployed as a containerised microservice.
-
-- **85% accuracy** on held-out test data via cross-validation
-- Optuna-based hyperparameter tuning on XGBoost
-- **20% efficiency boost** through feature engineering + pipeline automation
-- Comprehensive REST API with structured error handling
-
-`XGBoost` `FastAPI` `Docker` `PostgreSQL` `Optuna`
-
-</td>
-</tr>
-</table>
+`XGBoost` `FastAPI` `Optuna` `Docker`
 
 ---
 
-## 🏆 Hackathons & Awards
+## Technical Stack
 
 <table>
 <tr>
-<td>🥇</td>
-<td><strong>Finalist</strong> — Meta × PyTorch × HuggingFace OpenEnv Hackathon, Bangalore</td>
-<td><code>ConflictBench</code></td>
-</tr>
-<tr>
-<td>🏅</td>
-<td><strong>Top 100</strong> — Scaler School of Technology OpenEnv Pre-Selection</td>
-<td><code>ConflictBench</code></td>
-</tr>
-<tr>
-<td>🥉</td>
-<td><strong>3rd Place</strong> — Pragyantra, PES Modern College of Engineering</td>
-<td><code>Arivon</code></td>
+<td valign="top" width="33%">
+
+### ML & AI
+
+`Python` `PyTorch` `Transformers` `GRPO` `PPO` `LoRA/QLoRA` `TRL` `Unsloth` `PEFT` `Ray RLlib` `RAG` `OpenCV` `YOLOv8`
+
+</td>
+<td valign="top" width="33%">
+
+### Backend & Data
+
+`FastAPI` `React` `Next.js` `PostgreSQL` `MongoDB` `Redis` `SQL` `Firebase`
+
+</td>
+<td valign="top" width="33%">
+
+### Engineering
+
+`Docker` `Docker Compose` `GitHub Actions` `GCP` `ONNX Runtime` `CI/CD` `OpenAPI`
+
+</td>
 </tr>
 </table>
 
 ---
 
-## ⚙️ Tech Stack
+## Recognition
 
-```python
-LANGUAGES    = ["Python", "SQL", "JavaScript", "TypeScript"]
-
-ML_RL        = ["PyTorch", "GRPO", "PPO", "LoRA/QLoRA", "TRL", "Unsloth",
-                "Ray RLlib", "HuggingFace Transformers", "PEFT"]
-
-VISION       = ["YOLOv8", "ONNX Runtime", "OpenCV", "Albumentations"]
-
-LLM_INFRA    = ["RAG Pipelines", "RLHF", "Adversarial RL", "Agentic AI",
-                "Haystack", "Groq Whisper"]
-
-BACKEND      = ["FastAPI", "Next.js 15", "React"]
-
-INFRA_DB     = ["Docker", "GitHub Actions", "Google Cloud",
-                "PostgreSQL", "MongoDB", "Redis"]
-
-CERTS        = ["Deep Learning Specialization (Andrew Ng)",
-                "Generative AI with LLMs (AWS / Coursera)",
-                "LLM Fundamentals (Hugging Face)"]
-```
+- **Top 100 Finalist** — Meta × PyTorch × Hugging Face OpenEnv Hackathon, ConflictBench
+- **3rd Place** — Pragyantra, PES Modern College of Engineering, Arivon
+- **Machine Learning Intern** — Prodigy InfoTech, Nov 2025–Jan 2026
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Activity
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Harsh-4210&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=8b5cf6&icon_color=8b5cf6&text_color=c9d1d9&include_all_commits=true&count_private=true" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harsh-4210&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=8b5cf6&text_color=c9d1d9&langs_count=8" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Harsh-4210&show_icons=true&hide_border=true&theme=transparent&title_color=0e75b6&icon_color=0e75b6&text_color=6b7280&include_all_commits=true" alt="Harsh Jain's GitHub statistics" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harsh-4210&layout=compact&hide_border=true&theme=transparent&title_color=0e75b6&text_color=6b7280&langs_count=8" alt="Harsh Jain's most used languages" />
 
-</div>
+<br />
 
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Harsh-4210&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=8b5cf6&ring=8b5cf6&fire=f97316&currStreakLabel=8b5cf6&dates=8b949e" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Harsh-4210&theme=algolia&no-frame=true&no-bg=true&column=6&margin-w=8" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Harsh-4210&hide_border=true&bg_color=ffffff00&color=6b7280&line=0e75b6&point=0e75b6" alt="Harsh Jain's contribution activity" />
 
 </div>
 
 ---
 
-## 📈 Contribution Activity
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Harsh-4210&bg_color=0d1117&color=8b5cf6&line=4f17a8&point=8b5cf6&area=true&area_color=4f17a8&hide_border=true" width="100%"/>
-
----
-
-## 🎯 Currently
-
-- 🔬 Building adversarial RL systems and LLM fine-tuning pipelines
-- 🏗️ Shipping production ML with FastAPI + Docker
-- 📖 B.E. AI & Data Science @ SPPU · **Open to ML engineering roles & research internships**
-- 📬 Reach me: [harshjain0621@gmail.com](mailto:harshjain0621@gmail.com) · [linkedin.com/in/harsh-jain0621](https://linkedin.com/in/harsh-jain0621)
-
----
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f17a8,50:1a1040,100:0a0f1a&height=80&section=footer" width="100%"/>
+### Building toward reliable AI
 
-*"I don't just train models — I build systems that ship, scale, and survive production."*
+Explicit evaluation, adversarial testing, structured outputs, traceable decisions, and deployment paths that survive contact with real users.
 
-![Profile views](https://komarev.com/ghpvc/?username=Harsh-4210&color=8b5cf6&style=flat-square&label=Profile+Views)
+[Email me](mailto:harshjain0621@gmail.com) &nbsp; · &nbsp; [Connect on LinkedIn](https://www.linkedin.com/in/harsh-jain0621/) &nbsp; · &nbsp; [Explore my repositories](https://github.com/Harsh-4210)
+
+<br />
+
+![Profile views](https://komarev.com/ghpvc/?username=Harsh-4210&style=flat-square&color=0e75b6&label=Profile+Views)
 
 </div>

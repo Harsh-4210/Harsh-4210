@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+  <title id="title">ARMS RACE adversarial oversight loop</title>
+  <desc id="desc">A red agent creates a plausible error, a blue agent probes it, and correction training updates both evaluation and policy.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="900" height="220" rx="12" fill="#f8fafc" stroke="#dbe4ee"/>
+  <text x="34" y="38" fill="#334155" font-family="Segoe UI,sans-serif" font-size="15" letter-spacing="2">ARMS RACE · ADVERSARIAL OVERSIGHT</text>
+  <g font-family="Segoe UI,sans-serif" text-anchor="middle"><g stroke-width="2"><circle cx="125" cy="116" r="58" fill="#fff1f2" stroke="#dc2626"/><circle cx="350" cy="116" r="58" fill="#eff6ff" stroke="#2563eb"/><circle cx="575" cy="116" r="58" fill="#fffbeb" stroke="#d97706"/><circle cx="800" cy="116" r="58" fill="#f0fdfa" stroke="#0f766e"/></g><g fill="#1e293b" font-size="16"><text x="125" y="111">Red Agent</text><text x="125" y="133" fill="#b91c1c">plausible error</text><text x="350" y="111">Blue Agent</text><text x="350" y="133" fill="#1d4ed8">Pass / Flag / Probe</text><text x="575" y="111">Reward</text><text x="575" y="133" fill="#b45309">asymmetric risk</text><text x="800" y="111">Correction</text><text x="800" y="133" fill="#0f766e">ECT + update</text></g><g stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"><path d="M185 116h105"/><path d="M410 116h105"/><path d="M635 116h105"/><path d="M800 58V38H125V58" fill="none"/></g></g>
+  <circle cx="125" cy="58" r="5" fill="#2563eb"><animate attributeName="cx" values="125;800;125" dur="5s" repeatCount="indefinite"/></circle>
+</svg>
