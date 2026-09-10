@@ -44,7 +44,6 @@ Reliable AI systems with explicit evaluation, adversarial testing, structured ou
 
 ### Best fit
 
-Applied ML engineering, reinforcement learning, LLM evaluation, agentic systems, and research-heavy product teams.
 
 </td>
 </tr>
@@ -76,7 +75,6 @@ Contact:            harshjain0621@gmail.com
 <summary><b>My engineering lens</b></summary>
 <br />
 
-| Question | My default answer |
 |---|---|
 | How should an AI system improve? | Through a measurable reward, evaluation set, or feedback signal. |
 | How should it fail? | Explicitly, with structured outputs, logs, and recoverable state. |
@@ -106,7 +104,6 @@ Contact:            harshjain0621@gmail.com
 
 ---
 
-## Flagship Project
 
 <table>
 <tr>
@@ -145,7 +142,6 @@ The hierarchy is never stated in the prompt. The agent must identify conflicts, 
 <br />
 
 ```mermaid
-flowchart LR
     G[Scenario Generator] --> E[ConflictBench Environment]
     E --> P[Structured JSON Plan]
     P --> V[Deterministic Verifier]
@@ -236,7 +232,6 @@ An end-to-end ML pipeline for predicting SO2 emissions from Indian coal power pl
 
 - XGBoost with feature selection and cross-validation
 - Optuna hyperparameter tuning
-- 85% accuracy on held-out test data
 - Containerised FastAPI deployment with Docker
 
 <details>
@@ -244,7 +239,6 @@ An end-to-end ML pipeline for predicting SO2 emissions from Indian coal power pl
 <br />
 
 The recurring engineering challenge is the same across domains: define what "correct" means before asking a model to optimize for it. In ConflictBench that became a deterministic verifier; in oversight it became asymmetric risk-sensitive rewards; in TraceLink it became auditable state transitions; and in InsureClear it became a judge threshold plus revision loop.
-
 </details>
 
 ---
@@ -291,7 +285,6 @@ The recurring engineering challenge is the same across domains: define what "cor
 <td valign="top" width="33%">
 
 ### Engineering
-
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -303,14 +296,12 @@ The recurring engineering challenge is the same across domains: define what "cor
 </table>
 
 Also: TensorFlow, Keras, Scikit-learn, TRL, Unsloth, PEFT, Ray RLlib, OpenCV, YOLOv8, ONNX Runtime, Albumentations, LangGraph, Docker Compose, PostgreSQL, MongoDB, Redis, and CI/CD.
-
 ---
 
 ## By The Numbers
 
 <div align="center">
 
-| 257% | 100% | 85% | 8.75/10 |
 |:---:|:---:|:---:|:---:|
 | ConflictBench reward improvement | Silent-failure detection | SO2 held-out accuracy | University GPA |
 
@@ -329,7 +320,6 @@ Also: TensorFlow, Keras, Scikit-learn, TRL, Unsloth, PEFT, Ray RLlib, OpenCV, YO
 
 <div align="center">
 
-<a href="https://github.com/Harsh-4210">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Harsh-4210&show_icons=true&hide_border=true&theme=transparent&title_color=0e75b6&icon_color=0e75b6&text_color=6b7280" alt="Harsh Jain's GitHub statistics" />
 </a>
 <a href="https://github.com/Harsh-4210">
