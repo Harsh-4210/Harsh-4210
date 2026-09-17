@@ -1,20 +1,22 @@
 <div align="center">
 
-# Harsh Jain
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0a2a5e,80:0e75b6,100:58a6ff&height=230&section=header&text=Harsh%20Jain&fontSize=75&fontColor=ffffff&fontAlignY=40&desc=Applied%20ML%20%26%20AI%20Engineer&descAlignY=60&descSize=22&animation=fadeIn&fontAlign=50" alt="Harsh Jain Header" />
 
-<img src="./assets/harsh-jain-banner.svg" alt="Harsh Jain - Applied ML and AI Engineer" width="100%" />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=820&height=65&lines=Reinforcement+Learning+%C2%B7+LLM+Systems+%C2%B7+Production+AI;Building+systems+that+learn%2C+reason%2C+and+ship;From+reward+functions+to+reliable+APIs;Designing+AI+that+survives+real-world+deployment;Evaluation-first+%C2%B7+Traceable+%C2%B7+Ready+to+Ship" alt="Typing animation" />
 
-### Applied ML & AI Engineer building systems that learn, reason, and ship
+<br/>
 
-`Reinforcement Learning` · `LLM Systems` · `Production AI`
+[![GitHub followers](https://img.shields.io/github/followers/Harsh-4210?label=Followers&style=for-the-badge&logo=github&color=0e75b6&labelColor=0d1117)](https://github.com/Harsh-4210?tab=followers)
+[![GitHub stars](https://img.shields.io/github/stars/Harsh-4210?label=Total%20Stars&style=for-the-badge&logo=github&color=58a6ff&labelColor=0d1117)](https://github.com/Harsh-4210)
+[![Profile Views](https://komarev.com/ghpvc/?username=Harsh-4210&style=for-the-badge&color=0e75b6&label=Profile+Views&labelColor=0d1117)](https://github.com/Harsh-4210)
 
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=20&pause=1200&color=0E75B6&center=true&vCenter=true&width=720&lines=Reinforcement+Learning+%C2%B7+LLM+Systems+%C2%B7+Production+AI;From+reward+functions+to+reliable+APIs;Building+systems+that+can+explain+how+they+decide" alt="Reinforcement Learning, LLM Systems, and Production AI" />
+<br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Harsh--4210-181717?style=for-the-badge&logo=github)](https://github.com/Harsh-4210)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harsh%20Jain-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/harsh-jain0621/)
-[![Email](https://img.shields.io/badge/Email-Contact%20me-EA4335?style=for-the-badge&logo=gmail)](mailto:harshjain0621@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harsh%20Jain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-jain0621/)
+[![Gmail](https://img.shields.io/badge/Gmail-harshjain0621-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harshjain0621@gmail.com)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Harsh--9209-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Harsh-9209)
 
-<sub>🎓 B.E. Artificial Intelligence & Data Science @ SPPU &nbsp;•&nbsp; GPA 8.75/10 &nbsp;•&nbsp; Pune, India</sub>
+<sub>🎓 B.E. Artificial Intelligence &amp; Data Science @ SPPU &nbsp;•&nbsp; GPA 8.75/10 &nbsp;•&nbsp; Pune, India</sub>
 
 </div>
 
@@ -22,14 +24,21 @@
 
 <div align="center">
 
-<a href="#flagship-project">Flagship project</a> &nbsp;·&nbsp;
-<a href="#selected-work">Selected work</a> &nbsp;·&nbsp;
-<a href="#technical-stack">Technical stack</a> &nbsp;·&nbsp;
-<a href="#github-activity">GitHub activity</a>
+<a href="#-about-me">About</a> &nbsp;·&nbsp;
+<a href="#-live-github-stats">📊 Stats</a> &nbsp;·&nbsp;
+<a href="#-github-trophies">🏆 Trophies</a> &nbsp;·&nbsp;
+<a href="#-flagship-project">🚀 Flagship</a> &nbsp;·&nbsp;
+<a href="#-selected-work">💼 Work</a> &nbsp;·&nbsp;
+<a href="#%EF%B8%8F-technical-stack">⚙️ Stack</a> &nbsp;·&nbsp;
+<a href="#-contribution-snake">🐍 Snake</a>
 
 </div>
 
-<br />
+<br/>
+
+---
+
+## 🧩 About Me
 
 <table>
 <tr>
@@ -57,20 +66,54 @@ Systems that are useful beyond the demo: observable, testable, and ready to ship
 </tr>
 </table>
 
-## What I Work On
-
-I turn research ideas into measurable, deployable systems. My work sits at the intersection of reinforcement learning, LLM systems, applied ML, and production engineering.
+I turn research ideas into measurable, deployable systems — at the intersection of reinforcement learning, LLM systems, applied ML, and production engineering.
 
 - **Reinforcement learning:** GRPO, PPO, reward design, environments, and agent evaluation
 - **LLM systems:** fine-tuning, LoRA/QLoRA, RAG, structured generation, and agentic workflows
 - **Applied ML:** computer vision, emissions prediction, feature engineering, and optimization
 - **Production engineering:** FastAPI services, React applications, Docker, databases, and CI/CD
 
-> **My approach:** design the evaluation first, make decisions traceable, and treat deployment as part of the research—not the final polish.
+> **My approach:** design the evaluation first, make decisions traceable, and treat deployment as part of the research — not the final polish.
 
 ---
 
-## Flagship Project
+## 📊 Live GitHub Stats
+
+<div align="center">
+
+<img height="185" src="https://github-readme-stats.vercel.app/api?username=Harsh-4210&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_radius=12" alt="Harsh's GitHub Stats" />
+&nbsp;
+<img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harsh-4210&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_radius=12&langs_count=8" alt="Most Used Languages" />
+
+<br/>
+
+<img width="96%" src="https://streak-stats.demolab.com/?user=Harsh-4210&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff7b72&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e&border_radius=12" alt="GitHub Streak Stats" />
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Harsh-4210&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies" />
+
+</div>
+
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Harsh-4210&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=0e75b6&point=58a6ff&area=true&area_color=0e2a5e" alt="Contribution Activity Graph" />
+
+</div>
+
+---
+
+## 🚀 Flagship Project
 
 ### ConflictBench &nbsp;·&nbsp; *Reward-driven authority resolution*
 
@@ -90,14 +133,14 @@ Scenarios contain 8–28 directives and 2–6 embedded conflict pairs. The agent
 | Recognition | Top 100 finalist, Meta × PyTorch × Hugging Face OpenEnv Hackathon |
 
 [![Source Code](https://img.shields.io/badge/Source%20Code-ConflictBench-181717?style=flat-square&logo=github)](https://github.com/Harsh-4210/Conflict_Bench)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/spaces/Harsh-9209/Conflict_Bench)
-[![LoRA Adapter](https://img.shields.io/badge/LoRA%20Adapter-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/Harsh-9209/conflictbench-qwen2.5-3b-grpo-lora)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Hugging%20Face%20Spaces-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/Harsh-9209/Conflict_Bench)
+[![LoRA Adapter](https://img.shields.io/badge/LoRA%20Adapter-Hugging%20Face%20Hub-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/Harsh-9209/conflictbench-qwen2.5-3b-grpo-lora)
 
 <img src="./assets/conflictbench-flow.svg" alt="ConflictBench training loop from contradictory directives through verification and reward into GRPO and LoRA training" width="100%" />
 
 ---
 
-## Selected Work
+## 💼 Selected Work
 
 <sub>A selection of systems spanning adversarial LLM evaluation, production traceability, adaptive learning, and applied forecasting.</sub>
 
@@ -150,37 +193,37 @@ An end-to-end ML pipeline for predicting SO2 emissions from Indian coal power pl
 
 ---
 
-## Technical Stack
+## ⚙️ Technical Stack
 
-<table>
-<tr>
-<td valign="top" width="33%">
+<div align="center">
 
-### 🧠 ML & AI
+**🧠 ML & AI**
 
-`Python` `PyTorch` `Transformers` `GRPO` `PPO` `LoRA/QLoRA` `TRL` `Unsloth` `PEFT` `Ray RLlib` `RAG` `OpenCV` `YOLOv8`
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&perline=8" alt="ML and AI tools" />
 
-</td>
-<td valign="top" width="33%">
+`PyTorch` &nbsp; `Transformers` &nbsp; `GRPO` &nbsp; `PPO` &nbsp; `LoRA/QLoRA` &nbsp; `TRL` &nbsp; `Unsloth` &nbsp; `PEFT` &nbsp; `Ray RLlib` &nbsp; `RAG` &nbsp; `YOLOv8`
 
-### ⚙️ Backend & Data
+<br/>
 
-`FastAPI` `React` `Next.js` `PostgreSQL` `MongoDB` `Redis` `SQL` `Firebase`
+**⚙️ Backend & Data**
 
-</td>
-<td valign="top" width="33%">
+<img src="https://skillicons.dev/icons?i=fastapi,react,nextjs,postgres,mongodb,redis,firebase,sqlite&perline=8" alt="Backend and data tools" />
 
-### 🚀 Engineering
+`FastAPI` &nbsp; `React` &nbsp; `Next.js` &nbsp; `PostgreSQL` &nbsp; `MongoDB` &nbsp; `Redis` &nbsp; `Firebase`
 
-`Docker` `Docker Compose` `GitHub Actions` `GCP` `ONNX Runtime` `CI/CD` `OpenAPI`
+<br/>
 
-</td>
-</tr>
-</table>
+**🚀 Engineering & DevOps**
+
+<img src="https://skillicons.dev/icons?i=docker,github,githubactions,gcp,linux,git&perline=8" alt="DevOps tools" />
+
+`Docker` &nbsp; `Docker Compose` &nbsp; `GitHub Actions` &nbsp; `GCP` &nbsp; `ONNX Runtime` &nbsp; `CI/CD` &nbsp; `OpenAPI`
+
+</div>
 
 ---
 
-## Recognition
+## ✦ Recognition
 
 | ✦ | Milestone | Context |
 |---|---|---|
@@ -190,24 +233,15 @@ An end-to-end ML pipeline for predicting SO2 emissions from Indian coal power pl
 
 ---
 
-## GitHub Activity
+## 🐍 Contribution Snake
 
 <div align="center">
 
-<a href="https://github.com/Harsh-4210">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Harsh-4210&theme=github_dark" alt="Harsh Jain's GitHub statistics" />
-</a>
-<a href="https://github.com/Harsh-4210?tab=repositories">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Harsh-4210&theme=github_dark" alt="Harsh Jain's repositories by language" />
-</a>
-
-<br />
-
-<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Harsh-4210&theme=github_dark" alt="Harsh Jain's contribution activity graph" />
-
-<br /><br />
-
-[![GitHub Profile](https://img.shields.io/badge/View%20all%20repositories-Harsh--4210-0e75b6?style=for-the-badge&logo=github)](https://github.com/Harsh-4210?tab=repositories)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Harsh-4210/Harsh-4210/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Harsh-4210/Harsh-4210/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/Harsh-4210/Harsh-4210/output/github-contribution-grid-snake-dark.svg" />
+</picture>
 
 </div>
 
@@ -219,10 +253,14 @@ An end-to-end ML pipeline for predicting SO2 emissions from Indian coal power pl
 
 Explicit evaluation, adversarial testing, structured outputs, traceable decisions, and deployment paths that survive contact with real users.
 
-[Email me](mailto:harshjain0621@gmail.com) &nbsp; · &nbsp; [Connect on LinkedIn](https://www.linkedin.com/in/harsh-jain0621/) &nbsp; · &nbsp; [Explore my repositories](https://github.com/Harsh-4210)
+<br/>
 
-<br />
+[![Email](https://img.shields.io/badge/Email%20me-harshjain0621%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:harshjain0621@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/harsh-jain0621/)
+[![Repositories](https://img.shields.io/badge/Explore-Repositories-0e75b6?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Harsh-4210?tab=repositories)
 
-![Profile views](https://komarev.com/ghpvc/?username=Harsh-4210&style=flat-square&color=0e75b6&label=Profile+Views)
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:0e75b6,100:0d1117&height=140&section=footer&animation=fadeIn" alt="Footer wave" />
 
 </div>
