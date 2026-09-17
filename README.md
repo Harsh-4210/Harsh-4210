@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0a2a5e,80:0e75b6,100:58a6ff&height=230&section=header&text=Harsh%20Jain&fontSize=75&fontColor=ffffff&fontAlignY=40&desc=Applied%20ML%20%26%20AI%20Engineer&descAlignY=60&descSize=22&animation=fadeIn&fontAlign=50" alt="Harsh Jain Header" />
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=200&section=header&text=Harsh%20Jain&fontSize=70&fontColor=ffffff&animation=fadeIn&desc=Applied%20ML%20%26%20AI%20Engineer&descAlignY=60&descSize=20)
 
 <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=820&height=65&lines=Reinforcement+Learning+%C2%B7+LLM+Systems+%C2%B7+Production+AI;Building+systems+that+learn%2C+reason%2C+and+ship;From+reward+functions+to+reliable+APIs;Designing+AI+that+survives+real-world+deployment;Evaluation-first+%C2%B7+Traceable+%C2%B7+Ready+to+Ship" alt="Typing animation" />
 
@@ -81,9 +81,9 @@ I turn research ideas into measurable, deployable systems — at the intersectio
 
 <div align="center">
 
-<img height="185" src="https://github-readme-stats.vercel.app/api?username=Harsh-4210&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_radius=12" alt="Harsh's GitHub Stats" />
+<img height="185" src="https://github-readme-stats.vercel.app/api?username=Harsh-4210&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&cache_seconds=21600" alt="Harsh's GitHub Stats" />
 &nbsp;
-<img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harsh-4210&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_radius=12&langs_count=8" alt="Most Used Languages" />
+<img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harsh-4210&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&cache_seconds=21600" alt="Most Used Languages" />
 
 <br/>
 
@@ -97,7 +97,7 @@ I turn research ideas into measurable, deployable systems — at the intersectio
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Harsh-4210&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies" />
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Harsh-4210&theme=flat&no-frame=true&no-bg=true&column=6&margin-w=10" alt="GitHub Trophies" />
 
 </div>
 
@@ -107,7 +107,7 @@ I turn research ideas into measurable, deployable systems — at the intersectio
 
 <div align="center">
 
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Harsh-4210&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=0e75b6&point=58a6ff&area=true&area_color=0e2a5e" alt="Contribution Activity Graph" />
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Harsh-4210&bg_color=0d1117&color=58a6ff&line=0e75b6&point=58a6ff&area=true&hide_border=true" alt="Contribution Activity Graph" />
 
 </div>
 
@@ -240,7 +240,7 @@ An end-to-end ML pipeline for predicting SO2 emissions from Indian coal power pl
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Harsh-4210/Harsh-4210/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Harsh-4210/Harsh-4210/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/Harsh-4210/Harsh-4210/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="GitHub contribution grid snake animation" src="https://github-contribution-grid-snake.vercel.app/?user=Harsh-4210&dark=true" />
 </picture>
 
 </div>
@@ -261,6 +261,6 @@ Explicit evaluation, adversarial testing, structured outputs, traceable decision
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:0e75b6,100:0d1117&height=140&section=footer&animation=fadeIn" alt="Footer wave" />
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=120&section=footer&animation=fadeIn)
 
 </div>
