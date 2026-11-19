@@ -24,31 +24,43 @@ I build training environments, reward functions and evaluation harnesses for lan
 
 ## Featured projects
 
-### [ConflictBench](https://github.com/Harsh-4210/Conflict_Bench) · RL environment for LLMs
+### [Drishya](https://github.com/drishya-dev/drishya) · Local observability for coding agents
 
-Language models handed a document of contradictory instructions (Legal vs. a VP vs. a team lead) tend to trust the latest message or try to satisfy both sides. ConflictBench is an OpenEnv environment that trains them to return **one executable JSON plan** instead.
+**See what your coding agent is doing, and review it like an engineer.** Drishya turns an agent session into a live, inspectable engineering record: the files it read, commands it ran, test output, diffs, and Git context—shown next to the repository instead of hidden behind a final “Done.”
 
-- Scenario generator with 6–16 directives and 2–6 embedded conflicts across 10 business domains, each with ground truth
-- **Deterministic five-rubric reward, no LLM judge:** correctness, contradiction-freedom, conflict-pair F1, efficiency, JSON validity
-- Fine-tuned **Qwen2.5-3B with GRPO + LoRA** (Unsloth, 4-bit): composite reward **0.14 → 0.50** on held-out scenarios; instruction-following 0.11 → 0.48
-- Top 100 finalist, Meta × PyTorch × Hugging Face OpenEnv Hackathon
+- Live follow, replay, search, workspace review, branch/PR changes, Git graph, and prompt steering in one local interface
+- Reads Claude Code, Codex, and Antigravity journals **read-only**; can send prompts to Claude Code and Codex after explicit user confirmation
+- Local-first by design: `127.0.0.1` only, no telemetry, no external page assets, best-effort secret redaction before storage, and launch-token authentication
+- Built with Node.js 24, TypeScript, React 19, Vite, and SQLite; security suite covers request gating, host/origin checks, redaction canaries, outbound traffic, command execution, and packaging
+
+[![Source](https://img.shields.io/badge/Source-GitHub-1b1b1b?style=flat-square&logo=github)](https://github.com/drishya-dev/drishya)
+[![Website](https://img.shields.io/badge/Website-Drishya-35557a?style=flat-square&logo=googlechrome&logoColor=white)](https://drishya-dev.github.io/drishya/)
+&nbsp;`TypeScript` `Node.js` `React` `Vite` `SQLite` `Playwright` `Vitest`
+
+### [ConflictBench](https://github.com/Harsh-4210/Conflict_Bench) · RL environment for instruction-priority reasoning
+
+ConflictBench is a deterministic environment and GRPO pipeline for training a language model to resolve contradictory business instructions into **one executable JSON plan**. A November 2026 audit redesigned the task and reward to eliminate exploitable shortcuts in the original hackathon version.
+
+- Deterministic generator and resolver across 17 topics, with seniority, scoped standing authority, delegation, dated supersession, conditions, dependency chains, and deliberately balanced distractors
+- Fixed, committed **600-scenario** held-out test set with a SHA-256 checksum; train/validation/test phrasing and job-title pools are disjoint
+- Rule-based scorer only—no LLM judge—with a strict structured-JSON gate and composite score for final-state accuracy, conflict identification, and contradiction freedom
+- The prior hackathon adapter is preserved for comparison, but the redesigned task has **not yet been GPU-trained or model-evaluated**; existing measured results are documented rule-based and cheat baselines
 
 [![Source](https://img.shields.io/badge/Source-GitHub-1b1b1b?style=flat-square&logo=github)](https://github.com/Harsh-4210/Conflict_Bench)
 [![Demo](https://img.shields.io/badge/Live_demo-HF_Space-35557a?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/spaces/Harsh-9209/Conflict_Bench)
-[![Adapter](https://img.shields.io/badge/LoRA_adapter-HF_Hub-35557a?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/Harsh-9209/conflictbench-qwen2.5-3b-grpo-lora)
-&nbsp;`Python` `TRL` `Unsloth` `PEFT` `OpenEnv` `FastAPI` `Gradio` `W&B`
+&nbsp;`Python` `GRPO` `TRL` `OpenEnv` `FastAPI` `Gradio` `pytest`
 
-### [InsureClear](https://github.com/Harsh-4210/Insureclear) · Multi-agent LLM pipeline
+### [InsureClear](https://github.com/Harsh-4210/Insureclear) · Evidence-grounded insurance-appeal review
 
-Turns a rejected Indian health-insurance claim into a reviewable appeal package.
+Turns an Indian health-insurance denial letter and policy into a reviewable appeal draft. InsureClear keeps evidence, generated text, human decisions, and the exact approved export separate, so a reviewer can assess what the model did before anything leaves the system.
 
-- Five agents in sequence: **Auditor → Policy Analyst → IRDAI Checker → Appeal Writer → Judge**
-- The Judge acts as a quality gate: drafts scoring below **0.75** go back with concrete changes, for up to two revisions
-- FastAPI job API on a **SQLite-backed queue with checkpoints**, so jobs survive restarts; the React UI streams per-agent progress
-- Uploaded PDFs are deleted after processing, and every regulatory citation is flagged for manual verification
+- Handles fictional demo cases, pasted evidence, and paired policy/denial PDFs; exposes excerpts, source offsets, regulatory versions, and document-coverage limits
+- Reviewer workflow preserves revisions, records evidence and legal-applicability checks, invalidates approval after edits, and exports only the exact approved version
+- Named accounts and organisation boundaries, bounded SQLite job queue, progress, cancellation, confined deletion, readiness checks, PDF/OCR limits, and no-store private responses
+- Local MVP with private-pilot acceptance open; documented offline checks cover **278 backend tests** plus **16 frontend tests** and a production frontend build
 
 [![Source](https://img.shields.io/badge/Source-GitHub-1b1b1b?style=flat-square&logo=github)](https://github.com/Harsh-4210/Insureclear)
-&nbsp;`Python` `Gemini` `FastAPI` `React` `SQLite` `Docker` `pytest`
+&nbsp;`Python` `FastAPI` `React` `SQLite` `Docker` `Tesseract OCR` `pytest`
 
 ### [DealFlow360](https://github.com/orion-catchers/dealflow) · B2B quote-to-cash (team of four)
 
